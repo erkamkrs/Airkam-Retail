@@ -1,0 +1,224 @@
+{% include 'header.html' %}
+<!--Product Container-->
+<div class="container page-wrapper" id="product-container">
+  <div class="page-inner">
+    <div class="row">
+      <div class="el-wrapper">
+        <div class="box-up">
+          <img class="img" src="data:image/jpeg;base64,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" alt="">
+          <div class="img-info">
+            <div class="info-inner">
+              <span class="p-name">Air Max 97 White Men's</span>
+              <span class="p-company">Nike</span>
+            </div>
+            <div class="a-size">Available sizes : <span class="size">41, 42, 43.5,44, 45, 46.5, 48, 49.5</span></div>
+          </div>
+        </div>
+
+        <div class="box-down">
+          <div class="h-bg">
+            <div class="h-bg-inner"></div>
+          </div>
+
+          <a class="cart" href="#">
+            <span class="price">$180</span>
+            <span class="add-to-cart">
+                <img
+             src="https://img.icons8.com/material-outlined/512/shopping-cart--v1.png"
+             height="20"
+             alt=""
+             loading="lazy"
+             />
+            </span>
+              <span class="add-to-cart">
+                <img
+             src="https://img.icons8.com/material-outlined/512/shopping-cart--v1.png"
+             height="20"
+             alt=""
+             loading="lazy"
+             />
+            </span>
+          </a>
+        </div>
+      </div>
+
+      <div class="el-wrapper">
+        <div class="box-up">
+          <img class="img" src="data:image/jpeg;base64,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" alt="">
+          <div class="img-info">
+            <div class="info-inner">
+              <span class="p-name">Air Force 1 '07 Men's</span>
+              <span class="p-company">Nike</span>
+            </div>
+            <div class="a-size">Available sizes : <span class="size">39, 41, 45.5, 48, 48.5</span></div>
+          </div>
+        </div>
+
+        <div class="box-down">
+          <div class="h-bg">
+            <div class="h-bg-inner"></div>
+          </div>
+
+          <a class="cart" href="#">
+<span class="price">$120</span>
+            <span class="add-to-cart">
+                <img
+             src="https://img.icons8.com/material-outlined/512/shopping-cart--v1.png"
+             height="20"
+             alt=""
+             loading="lazy"
+             />
+            </span>            <span class="add-to-cart">
+
+            </span>
+          </a>
+        </div>
+      </div>
+
+      <div class="el-wrapper">
+        <div class="box-up">
+          <img class="img" src="data:image/jpeg;base64,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" alt="">
+          <div class="img-info">
+            <div class="info-inner">
+              <span class="p-name">Woman's Sandals</span>
+              <span class="p-company">Nike</span>
+            </div>
+            <div class="a-size">Available sizes : <span class="size">36, 37, 39, 41</span></div>
+          </div>
+        </div>
+
+        <div class="box-down">
+          <div class="h-bg">
+            <div class="h-bg-inner"></div>
+          </div>
+
+          <a class="cart" href="#">
+<span class="price">$80</span>
+            <span class="add-to-cart">
+                <img
+             src="https://img.icons8.com/material-outlined/512/shopping-cart--v1.png"
+             height="20"
+             alt=""
+             loading="lazy"
+             />
+            </span>            <span class="add-to-cart"></span>
+
+
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+</div>
+
+
+</body>
+
+<div class="container page-wrapper" id="product-container">
+  <div class="page-inner">
+    <div class="row">
+      <div class="el-wrapper">
+        <div class="box-up">
+          <img class="img" src="data:image/jpeg;base64,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" alt="">
+          <div class="img-info">
+            <div class="info-inner">
+              <span class="p-name">Air Jordan I Kids</span>
+              <span class="p-company">Jordan</span>
+            </div>
+            <div class="a-size">Available sizes : <span class="size">4, 5, 6, 7</span></div>
+          </div>
+        </div>
+
+        <div class="box-down">
+          <div class="h-bg">
+            <div class="h-bg-inner"></div>
+          </div>
+
+          <a class="cart" href="#">
+<span class="price">$120</span>
+            <span class="add-to-cart">
+                <img
+             src="https://img.icons8.com/material-outlined/512/shopping-cart--v1.png"
+             height="20"
+             alt=""
+             loading="lazy"
+             />
+            </span>            <span class="add-to-cart">
+
+            </span>
+          </a>
+        </div>
+      </div>
+
+      <div class="el-wrapper">
+        <div class="box-up">
+          <img class="img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEz7n8W2VCsQB6IvT8QFHmk_JxFnTSRxhxYKuL3RELLVAMas43W5Xfw5__tlCf4JqmtKs&usqp=CAU" alt="">
+          <div class="img-info">
+            <div class="info-inner">
+              <span class="p-name">Men's Sandals</span>
+              <span class="p-company">Nike</span>
+            </div>
+            <div class="a-size">Available sizes : <span class="size">44, 45.5, 49</span></div>
+          </div>
+        </div>
+
+        <div class="box-down">
+          <div class="h-bg">
+            <div class="h-bg-inner"></div>
+          </div>
+
+          <a class="cart" href="#">
+<span class="price">$100</span>
+            <span class="add-to-cart">
+                <img
+             src="https://img.icons8.com/material-outlined/512/shopping-cart--v1.png"
+             height="20"
+             alt=""
+             loading="lazy"
+             />
+            </span>
+          </a>
+        </div>
+      </div>
+
+      <div class="el-wrapper">
+        <div class="box-up">
+          <img class="img" src="data:image/jpeg;base64,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" alt="">
+          <div class="img-info">
+            <div class="info-inner">
+              <span class="p-name">Women's Crop Top Black Shirt</span>
+              <span class="p-company">Nike</span>
+            </div>
+            <div class="a-size">Available sizes : <span class="size">XS, S , M , L , XL</span></div>
+          </div>
+        </div>
+
+        <div class="box-down">
+          <div class="h-bg">
+            <div class="h-bg-inner"></div>
+          </div>
+
+          <a class="cart" href="#">
+<span class="price">$30</span>
+            <span class="add-to-cart">
+                <img
+             src="https://img.icons8.com/material-outlined/512/shopping-cart--v1.png"
+             height="20"
+             alt=""
+             loading="lazy"
+             />
+            </span>
+            </span>
+          </a>
+        </div>
+      </div>
+</div>
+
+
+{% include 'footer.html' %}
+
+
+
+
